@@ -9,8 +9,9 @@ import java.util.stream.Collectors;
  */
 public class StrTest {
     public static void main(String[] args) {
-        List<String> list = Arrays.asList("HelloWorld", "HelloMars", "HelloWorldMars", "FuyunTest", "Foo");
+        List<String> list = Arrays.asList("HelloWorld", "Hadoop","HelloMars", "HelloWorldMars", "FuyunTest", "Foo");
         System.out.println(match(list, "H"));
+        System.out.println(match(list, "Ha"));
         System.out.println(match(list, "HeW"));
         System.out.println(match(list, "HeM"));
         System.out.println(match(list, "HeWM"));
